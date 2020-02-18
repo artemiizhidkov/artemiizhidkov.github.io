@@ -1,1 +1,0 @@
-# artemiizhidkov.github.io
