@@ -16,5 +16,5 @@ async def on_message(message):
     if message.content.startswith('!hello'):
         await message.channel.send('Hello!')
 
-with open('token') as file:
+with open('D:\\discord_token') as file:
     client.run(file.readline())
