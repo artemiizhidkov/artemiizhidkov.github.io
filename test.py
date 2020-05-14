@@ -16,4 +16,5 @@ async def on_message(message):
     if message.content.startswith('!hello'):
         await message.channel.send('Hello!')
 
-client.run('NzEwMTQ1NzMwMzY2NDA2Nzg3.XrwM3w.RHF8xEQqaToHTMuIO0ckaFQSUgI')
+with open('token') as file:
+    client.run(file.readline())
